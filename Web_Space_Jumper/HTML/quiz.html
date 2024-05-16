@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Space Jumper Quiz</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="../CSS/style_quiz.css">
+    <link rel="stylesheet" href="../CSS/header_and_footer.css">
+</head>
+<body>
+<header>
+    <a href="quiz.html" class="logo"><span>S</span>pace <span>J</span>umper</a>
+    <ul class="navbar_header">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="a_propos_de.html">A propos de nous</a></li>
+        <li><a href="jeu.html">Jeu</a></li>
+        <li><a href="tutoriel.html">Tutoriel</a></li>
+        <li><a href="quiz.html">Quiz</a></li>
+    </ul>
+</header>
+
+<h2>Quiz sur Space Jumper :</h2>
+<h4>Réponds à ces questions et voyons si tu es un vrai fan de Space Jumper !</h4>
+
+<div id="quiz-container">
+    <div class="question">
+        <p>1. Combien de points de vie le joueur a-t-il au début du jeu ?</p>
+        <input type="radio" id="q1a" name="q1" value="1">
+        <label for="q1a">a) 1 cœur</label><br>
+        <input type="radio" id="q1b" name="q1" value="2">
+        <label for="q1b">b) 2 cœurs</label><br>
+        <input type="radio" id="q1c" name="q1" value="3">
+        <label for="q1c">c) 3 cœurs</label><br>
+        <input type="radio" id="q1d" name="q1" value="4">
+        <label for="q1d">d) 4 cœurs</label>
+    </div>
+
+    <div class="question">
+        <p>2. Que se passe-t-il si le joueur touche le sol ou le plafond ?</p>
+        <input type="radio" id="q2a" name="q2" value="gagne des points bonus">
+        <label for="q2a">a) Il gagne des points bonus</label><br>
+        <input type="radio" id="q2b" name="q2" value="perd une vie">
+        <label for="q2b">b) Il perd une vie</label><br>
+        <input type="radio" id="q2c" name="q2" value="rien ne se passe">
+        <label for="q2c">c) Rien ne se passe</label><br>
+        <input type="radio" id="q2d" name="q2" value="le niveau est terminé automatiquement">
+        <label for="q2d">d) Le niveau est terminé automatiquement</label>
+    </div>
+
+    <div class="question">
+        <p>3. À quel niveau le joueur a-t-il la possibilité d'obtenir un super bonus ?</p>
+        <input type="checkbox" id="q3a" name="q3" value="Niveau 3">
+        <label for="q3a">a) Niveau 3</label><br>
+        <input type="checkbox" id="q3b" name="q3" value="Niveau 5">
+        <label for="q3b">b) Niveau 5</label><br>
+        <input type="checkbox" id="q3c" name="q3" value="Niveau 10">
+        <label for="q3c">c) Niveau 10</label><br>
+        <input type="checkbox" id="q3d" name="q3" value="Niveau 15">
+        <label for="q3d">d) Niveau 15</label>
+    </div>
+
+    <div class="question">
+        <p>4. Qu'arrive-t-il si le joueur perd une vie ?</p>
+        <input type="radio" id="q4a" name="q4" value="Il recommence au début du niveau en cours">
+        <label for="q4a">a) Il recommence au début du niveau en cours</label><br>
+        <input type="radio" id="q4b" name="q4" value="Il avance au niveau suivant">
+        <label for="q4b">b) Il avance au niveau suivant</label><br>
+        <input type="radio" id="q4c" name="q4" value="Il perd des points mais continue depuis son emplacement actuel">
+        <label for="q4c">c) Il perd des points mais continue depuis son emplacement actuel</label><br>
+        <input type="radio" id="q4d" name="q4" value="Le jeu se met en pause">
+        <label for="q4d">d) Le jeu se met en pause</label>
+    </div>
+
+    <div class="question">
+        <p>5. Que se passe-t-il si le joueur perd tous ses cœurs ?</p>
+        <input type="radio" id="q5a" name="q5" value="Il recommence au début du niveau en cours">
+        <label for="q5a">a) Il recommence au début du niveau en cours</label><br>
+        <input type="radio" id="q5b" name="q5" value="Il perd la partie">
+        <label for="q5b">b) Il perd la partie</label><br>
+        <input type="radio" id="q5c" name="q5" value="Il obtient un bonus spécial">
+        <label for="q5c">c) Il obtient un bonus spécial</label><br>
+        <input type="radio" id="q5d" name="q5" value="Il passe au niveau suivant automatiquement">
+        <label for="q5d">d) Il passe au niveau suivant automatiquement</label>
+    </div>
+
+    <div class="question">
+        <p>6. Comment les points sont-ils attribués à chaque saut ?</p>
+        <input type="radio" id="q6a" name="q6" value="De manière aléatoire">
+        <label for="q6a">a) De manière aléatoire</label><br>
+        <input type="radio" id="q6b" name="q6" value="En fonction du nombre d'obstacles dans le niveau">
+        <label for="q6b">b) En fonction du nombre d'obstacles dans le niveau</label><br>
+        <input type="radio" id="q6c" name="q6" value="En fonction du niveau en cours et des bonus/malus obtenus">
+        <label for="q6c">c) En fonction du niveau en cours et des bonus/malus obtenus</label><br>
+        <input type="radio" id="q6d" name="q6" value="En fonction du temps passé dans le jeu">
+        <label for="q6d">d) En fonction du temps passé dans le jeu</label>
+    </div>
+
+    <div class="question">
+        <p>7. Quel est l'effet des malus ?</p>
+        <input type="radio" id="q7a" name="q7" value="Régénérer un cœur si le joueur en a moins de 3">
+        <label for="q7a">a) Régénérer un cœur si le joueur en a moins de 3</label><br>
+        <input type="radio" id="q7b" name="q7" value="Doubler le nombre de points gagnés passivement">
+        <label for="q7b">b) Doubler le nombre de points gagnés passivement</label><br>
+        <input type="radio" id="q7c" name="q7" value="Multiplier la gravité par deux ou inverser la gravité">
+        <label for="q7c">c) Multiplier la gravité par deux ou inverser la gravité</label><br>
+        <input type="radio" id="q7d" name="q7" value="Augmenter la vitesse du jeu">
+        <label for="q7d">d) Augmenter la vitesse du jeu</label>
+    </div>
+
+    <div class="question">
+        <p>8. Comment évolue la difficulté à mesure que le joueur progresse dans les niveaux ?</p>
+        <input type="radio" id="q8a" name="q8" value="Le nombre de points gagnés à chaque saut diminue">
+        <label for="q8a">a) Le nombre de points gagnés à chaque saut diminue</label><br>
+        <input type="radio" id="q8b" name="q8" value="La vitesse du jeu diminue">
+        <label for="q8b">b) La vitesse du jeu diminue</label><br>
+        <input type="radio" id="q8c" name="q8" value="Le nombre d'obstacles possibles augmente progressivement">
+        <label for="q8c">c) Le nombre d'obstacles possibles augmente progressivement</label><br>
+        <input type="radio" id="q8d" name="q8" value="Le joueur obtient plus de bonus">
+        <label for="q8d">d) Le joueur obtient plus de bonus</label>
+    </div>
+
+    <div class="question">
+        <p>9. Au niveau 9, quel est le nombre maximum de vaisseaux ennemis que tu peux rencontrer ?</p>
+        <input type="radio" id="q9a" name="q9" value="3">
+        <label for="q9a">a) 3</label><br>
+        <input type="radio" id="q9b" name="q9" value="4">
+        <label for="q9b">b) 4</label><br>
+        <input type="radio" id="q9c" name="q9" value="5">
+        <label for="q9c">c) 5</label><br>
+        <input type="radio" id="q9d" name="q9" value="6">
+        <label for="q9d">d) 6</label>
+    </div>
+
+    <div class="question">
+        <p>10. Quand le jeu a-t-il été créé ?</p>
+        <input type="radio" id="q10a" name="q10" value="2007">
+        <label for="q10a">a) 2007</label><br>
+        <input type="radio" id="q10b" name="q10" value="une semaine avant la date butoir">
+        <label for="q10b">b) une semaine avant la date butoir</label><br>
+        <input type="radio" id="q10c" name="q10" value="2022">
+        <label for="q10c">c) 2022</label><br>
+        <input type="radio" id="q10d" name="q10" value="2024">
+        <label for="q10d">d) 2024</label>
+    </div>
+</div>
+
+<button onclick="submitQuiz()">Soumettre</button>
+<script>
+    function submitQuiz() {
+        const answers = {
+            q1: "3",
+            q2: "perd une vie",
+            q3: ["Niveau 5", "Niveau 10", "Niveau 15"],
+            q4: "Il recommence au début du niveau en cours",
+            q5: "Il perd la partie",
+            q6: "En fonction du niveau en cours et des bonus/malus obtenus",
+            q7: "Multiplier la gravité par deux ou inverser la gravité",
+            q8: "Le nombre d'obstacles possibles augmente progressivement",
+            q9: "4",
+            q10: "une semaine avant la date butoir"
+        };
+        let nb_good_answer = 0;
+
+        for (let i = 1; i <= 10; i++) {
+            const question = document.querySelector(`input[name="q${i}"]:checked`).value;
+            const correctAnswer = answers[`q${i}`];
+
+            if (Array.isArray(correctAnswer)) {
+                const selectedAnswers = Array.from(document.querySelectorAll(`input[name="q${i}"]:checked`)).map(answer => answer.value);
+                if (selectedAnswers.length === correctAnswer.length && selectedAnswers.every(answer => correctAnswer.includes(answer))) {
+                    nb_good_answer++;
+                }
+            } else {
+                if (question === correctAnswer) {
+                    nb_good_answer++;
+                }
+            }
+        }
+        
+        alert("Vous avez obtenu " + nb_good_answer + "/10");
+    }
+</script>
+<footer>
+    <ul class="navbar_footer">
+        <li><a href="#">Contact :</a></li>
+        <li><a href="#">Téléphone : 06 88 04 55 70</a></li>
+        <li><a href="#">Email : Spacejumper.contact@gmail.com</a></li>
+    </ul>
+</footer>
+</body>
+</html>

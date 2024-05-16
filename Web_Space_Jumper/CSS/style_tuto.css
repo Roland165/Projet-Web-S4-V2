@@ -1,0 +1,21 @@
+body {
+    background-color: floralwhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    max-width: 600px;
+    padding: 20px;
+    text-align: left;
+    margin-right: auto;
+    margin-left: 200px;
+}
+.video-container {
+    width: 300px;
+    margin-right: 400px;
+}
