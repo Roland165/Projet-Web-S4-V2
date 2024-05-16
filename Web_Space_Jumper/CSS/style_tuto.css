@@ -1,5 +1,5 @@
 body {
-    background-color: floralwhite;
+    background-image:url("../Images/back-ground.png");
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,7 +8,16 @@ body {
     padding: 0;
 }
 
+.content h1{
+    font-family: 'Andale Mono', monospace;
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration-line: underline;
+    text-decoration-color: grey;
+}
 .content {
+    color: mediumpurple;
+
     max-width: 600px;
     padding: 20px;
     text-align: left;
