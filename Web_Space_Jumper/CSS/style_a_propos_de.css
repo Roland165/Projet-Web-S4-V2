@@ -1,16 +1,10 @@
-body{
-    background-image:url("../Images/back-ground.png");
-}
 table {
     width: 80%;
     border-collapse: collapse;
+    margin-top: 150px;
+    margin-right: 150px;
     justify-content: center;
     margin: 150px auto;
-    background-color: grey;
-}
-
-td{
-
 }
 th, td {
     border: 1px solid #dddddd;
@@ -25,17 +19,5 @@ th {
 }
 
 p{
-    position: relative;
-    text-align: center;
-    z-index: -1;
-    padding: 10px;
-    margin:50px;
-    font-weight: 300;
-    color: mediumpurple;
-    font-family: OCR A Std, monospace;
-    font-size: 20px;
-
-}
-section{
-    max-width: 100%;
+    margin-top: 50px;
 }
