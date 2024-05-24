@@ -10,7 +10,7 @@ h2{
     justify-content: center;
     margin: 150px auto 40px;
     display: flex;
-    font-size: 4em;
+    font-size: 70px;
     font-family: 'Andale Mono', monospace;
     font-weight: bold;
 }
@@ -19,7 +19,7 @@ h4{
     justify-content: center;
     display: flex;
     font-family: OCR A Std, monospace;
-    font-size: 30px;
+    font-size: 35px;
 }
 
 #quiz-container {

@@ -1,66 +1,55 @@
 body{
     background-image:url("../Images/back-ground.png");
 }
-h2 ,h4{
-    color:mediumpurple;
-}
+
 
 h2{
     justify-content: center;
     margin: 150px auto 40px;
     display: flex;
-    font-size: 4em;
+    font-size: 70px;
     font-family: 'Andale Mono', monospace;
     font-weight: bold;
-
-}
-h4{
-    justify-content: center;
-    display: flex;
-    font-family: OCR A Std, monospace;
-    font-size: 30px;
-}
-
-button {
-    background-color: mediumpurple;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    margin: 50px auto 100px;
-    display: flex;
-    font-size: 30px;
-}
-
-button:hover {
-    background-color: blueviolet;
+    color:mediumpurple;
 }
 
 
 #leaderboard {
     width: 80%;
-    margin: 20px auto;
+
     border-collapse: collapse;
-    background-color: white;
+    background: linear-gradient(45deg,mediumpurple, lightskyblue );
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    justify-content: center;
+    left: 10%;
 }
 
 #leaderboard th, #leaderboard td {
-    border: 1px solid #ddd;
-    padding: 8px;
+    padding: 15px;
+    background-color: rgba(255,255,255,0.2);
+    color: white;
+
+    font-family: OCR A Std, monospace;
+}
+#leaderboard thead {
+    background: linear-gradient(45deg, royalblue, #5f2c82);
+}
+
+#leaderboard td{
+    font-size: 25px;
+}
+#leaderboard th {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+tbody {
     text-align: center;
 }
 
-#leaderboard th {
-    background-color: #4CAF50;
-    color: white;
+tbody tr:hover {
+    background-color: rgba(255, 255, 255, 0.3);
 }
 
-#leaderboard tr:nth-child(even) {
-    background-color: #f2f2f2;
-}
 
-#leaderboard tr:hover {
-    background-color: #ddd;
-}

@@ -5,23 +5,40 @@ body{
 table {
     width: 80%;
     border-collapse: collapse;
+    background: linear-gradient(45deg,mediumpurple, lightskyblue );
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
     justify-content: center;
-    margin: 150px auto;
-    background-color: grey;
+    left: 10%;
 }
 
 th, td {
-    border: 1px solid #dddddd;
-    text-align: left;
     padding: 15px;
+    background-color: rgba(255,255,255,0.2);
+    color: white;
+    font-family: OCR A Std, monospace;
 }
 
 th {
-    background-color: #f2f2f2;
     font-weight: bold;
-    font-size: xx-large;
+    font-size: 50px;
     color: rebeccapurple;
     font-family: OCR A Std, monospace;
+    text-align: center;
+}
+
+td{
+    font-family: OCR A Std, monospace;
+    font-size: 25px;
+}
+
+thead {
+    background: linear-gradient(45deg, darkslateblue, floralwhite);
+}
+
+
+tbody tr:hover {
+    background-color: rgba(255, 255, 255, 0.3);
 }
 
 section{

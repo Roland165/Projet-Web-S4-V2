@@ -8,15 +8,15 @@ p {
     margin: 0;
     padding: 0;
     max-width: 40%;
-    font-weight: 300;
     color: rebeccapurple;
     font-style: initial;
     font-family: OCR A Std, monospace;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .banner{
     background-image: url('../Images/ingame.png');
+    background-size: cover;
     margin-bottom: 100px;
 }
 

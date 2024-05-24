@@ -10,7 +10,7 @@ header {
     top: 0;
     left: 0;
     position: fixed;
-    background-color: rgba(169, 169, 169, 0.25);
+    background-color: rgba(0, 0, 0, 0.75);
     padding: 40px 10px;
     width: 100%;
     z-index: 1;
@@ -19,11 +19,9 @@ header {
     transition: transform 0.3s ease;
 }
 
-
 header.sticky{
     transform: translateY(-100%);
 }
-
 
 .logo {
     position: fixed;
@@ -45,8 +43,7 @@ header.sticky{
 .navbar_header {
     display: flex;
     position: relative;
-    justify-content: left;
-    left: 45%
+    left: 60%
 }
 
 .navbar_header li {
@@ -63,7 +60,7 @@ a:hover {
     text-decoration: none;
     margin-left: 80px;
     font-weight: bold;
-    font-size: 1em;
+    font-size: 1.2em;
     border-style: solid;
     border-color: white;
     padding: 20px;
@@ -80,11 +77,11 @@ a:hover {
     background: #fb911f;
     margin-top: -10px;
     text-transform: uppercase;
+    transition: ease-out;
 }
 
 .btn-reserve:hover {
     background: #d87710;
-    transition: ease-out;
 }
 
 header .navbar_header li a:hover {
