@@ -1,0 +1,66 @@
+body{
+    background-image:url("../Images/back-ground.png");
+}
+h2 ,h4{
+    color:mediumpurple;
+}
+
+h2{
+    justify-content: center;
+    margin: 150px auto 40px;
+    display: flex;
+    font-size: 4em;
+    font-family: 'Andale Mono', monospace;
+    font-weight: bold;
+
+}
+h4{
+    justify-content: center;
+    display: flex;
+    font-family: OCR A Std, monospace;
+    font-size: 30px;
+}
+
+button {
+    background-color: mediumpurple;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 50px auto 100px;
+    display: flex;
+    font-size: 30px;
+}
+
+button:hover {
+    background-color: blueviolet;
+}
+
+
+#leaderboard {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#leaderboard th, #leaderboard td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+#leaderboard th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#leaderboard tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#leaderboard tr:hover {
+    background-color: #ddd;
+}
