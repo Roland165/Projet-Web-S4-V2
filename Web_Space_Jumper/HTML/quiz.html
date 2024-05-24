@@ -15,17 +15,26 @@
     </a>
     <ul class="navbar_header">
         <li><a href="index.html">Accueil</a></li>
-        <li><a href="a_propos_de.html">A propos de nous</a></li>
         <li><a href="jeu.html">Jeu</a></li>
         <li><a href="tutoriel.html">Tutoriel</a></li>
         <li><a href="quiz.html">Quiz</a></li>
+        <li><a href="classement.html">Classement</a></li>
     </ul>
 </header>
-
+<script src="../JS/header.js"></script>
 <h2>Quiz sur Space Jumper :</h2>
 <h4>Réponds à ces questions et voyons si tu es un vrai fan de Space Jumper !</h4>
 
+<form id="quiz-form">
 <div id="quiz-container">
+    <div class="question">
+        <p>Entrez votre pseudonyme :</p>
+    </div>
+    <div class="question">
+        <label>
+            <input type="text" placeholder="Mathieu" name="pseudo" required>
+        </label>
+    </div>
     <div class="question">
         <p>1. Combien de points de vie le joueur a-t-il au début du jeu ?</p>
         <input type="radio" id="q1a" name="q1" value="1">
@@ -146,46 +155,13 @@
         <label for="q10d">d) 2024</label>
     </div>
 </div>
+</form>
 
-<button onclick="submitQuiz()">Soumettre</button>
-<script>
-    function submitQuiz() {
-        const answers = {
-            q1: "3",
-            q2: "perd une vie",
-            q3: ["Niveau 5", "Niveau 10", "Niveau 15"],
-            q4: "Il recommence au début du niveau en cours",
-            q5: "Il perd la partie",
-            q6: "En fonction du niveau en cours et des bonus/malus obtenus",
-            q7: "Multiplier la gravité par deux ou inverser la gravité",
-            q8: "Le nombre d'obstacles possibles augmente progressivement",
-            q9: "4",
-            q10: "une semaine avant la date butoir"
-        };
-        let nb_good_answer = 0;
-
-        for (let i = 1; i <= 10; i++) {
-            const question = document.querySelector(`input[name="q${i}"]:checked`).value;
-            const correctAnswer = answers[`q${i}`];
-
-            if (Array.isArray(correctAnswer)) {
-                const selectedAnswers = Array.from(document.querySelectorAll(`input[name="q${i}"]:checked`)).map(answer => answer.value);
-                if (selectedAnswers.length === correctAnswer.length && selectedAnswers.every(answer => correctAnswer.includes(answer))) {
-                    nb_good_answer++;
-                }
-            } else {
-                if (question === correctAnswer) {
-                    nb_good_answer++;
-                }
-            }
-        }
-        
-        alert("Vous avez obtenu " + nb_good_answer + "/10");
-    }
-</script>
+<button id="submit-button">Soumettre</button>
+<script src="../JS/quiz.js"></script>
 <footer>
     <ul class="navbar_footer">
-        <li><a href="#">Contact :</a></li>
+        <li><a href="a_propos_de.html">A propos de nous</a></li>
         <li><a href="#">Téléphone : 06 88 04 55 70</a></li>
         <li><a href="#">Email : Spacejumper.contact@gmail.com</a></li>
     </ul>

@@ -1,6 +1,7 @@
 body{
     background-color: floralwhite;
 }
+
 p {
     position: relative;
     left: 5%;
@@ -24,15 +25,18 @@ h1, h2{
     color: white;
     bottom: 500px;
 }
+
 .citation{
     font-family: Berlin Sans FB, sans-serif;
     top:40%;
     font-size: 70px;
     margin-left: 50px;
 }
+
 .citation span{
     color: #fb911f;
 }
+
 .sous-citation{
     color: mediumpurple;
     top:50%;
@@ -46,6 +50,7 @@ h1, h2{
     padding: 0;
     margin: 0;
 }
+
 .launch_image{
     position: relative;
     bottom: 440px;

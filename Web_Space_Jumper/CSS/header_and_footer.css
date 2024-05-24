@@ -1,5 +1,4 @@
-
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,20 +6,26 @@
     scroll-behavior: smooth;
 }
 
-
-header{
-    top : 0;
-    left:0;
+header {
+    top: 0;
+    left: 0;
     position: fixed;
-    background-color: rgba(169 , 169 , 169, 0.25);
+    background-color: rgba(169, 169, 169, 0.25);
     padding: 40px 10px;
     width: 100%;
     z-index: 1;
     display: flex;
     align-items: center;
+    transition: transform 0.3s ease;
 }
 
-.logo{
+
+header.sticky{
+    transform: translateY(-100%);
+}
+
+
+.logo {
     position: fixed;
     left: 1%;
     text-decoration: none;
@@ -32,25 +37,28 @@ header{
     font-size: 5em;
     letter-spacing: 2px;
 }
-.logo span{
+
+.logo span {
     color: #fb911f;
 }
 
-.navbar_header{
+.navbar_header {
     display: flex;
     position: relative;
     justify-content: left;
-    left:45%
-
+    left: 45%
 }
-.navbar_header li{
+
+.navbar_header li {
     list-style: none;
     font-size: 20px;
 }
-a:hover{
+
+a:hover {
     color: mediumpurple;
 }
-.navbar_header a{
+
+.navbar_header a {
     color: ghostwhite;
     text-decoration: none;
     margin-left: 80px;
@@ -59,29 +67,27 @@ a:hover{
     border-style: solid;
     border-color: white;
     padding: 20px;
-    border-top-left-radius: 40px;
-    border-top-right-radius: 40px;
-    border-bottom-left-radius: 40px;
-    border-bottom-right-radius: 40px;
+    border-radius: 40px;
     justify-content: left;
 }
-.navbar_header a:hover{
+
+.navbar_header a:hover {
     border-color: #fb911f;
 }
 
-.btn-reserve{
+.btn-reserve {
     padding: 10px 20px;
     background: #fb911f;
     margin-top: -10px;
-    text-transform:uppercase ;
+    text-transform: uppercase;
 }
 
-.btn-reserve:hover{
+.btn-reserve:hover {
     background: #d87710;
     transition: ease-out;
 }
 
-header .navbar_header li a:hover{
+header .navbar_header li a:hover {
     color: #fb911f;
     border-bottom: 2px solid #fb911f;
 }

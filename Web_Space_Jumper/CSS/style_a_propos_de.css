@@ -1,6 +1,7 @@
 body{
     background-image:url("../Images/back-ground.png");
 }
+
 table {
     width: 80%;
     border-collapse: collapse;
@@ -9,15 +10,12 @@ table {
     background-color: grey;
 }
 
-td{
-
-}
 th, td {
     border: 1px solid #dddddd;
-    text-align: center;
+    text-align: left;
     padding: 15px;
-
 }
+
 th {
     background-color: #f2f2f2;
     font-weight: bold;
@@ -25,6 +23,7 @@ th {
     color: rebeccapurple;
     font-family: OCR A Std, monospace;
 }
+
 section{
     margin: 50px auto;
     max-width: 80%;
