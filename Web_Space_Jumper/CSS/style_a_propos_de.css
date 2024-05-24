@@ -22,7 +22,7 @@ th, td {
 th {
     font-weight: bold;
     font-size: 50px;
-    color: rebeccapurple;
+    color: floralwhite;
     font-family: OCR A Std, monospace;
     text-align: center;
 }
@@ -33,7 +33,7 @@ td{
 }
 
 thead {
-    background: linear-gradient(45deg, darkslateblue, floralwhite);
+    background: linear-gradient(45deg, royalblue, #5f2c82);
 }
 
 
