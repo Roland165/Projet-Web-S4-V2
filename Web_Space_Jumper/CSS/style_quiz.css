@@ -51,16 +51,17 @@ label{
 }
 button {
     background-color: mediumpurple;
-    color: #fff;
-    border: none;
+    color: floralwhite;
     padding: 10px 20px;
     border-radius: 5px;
-    cursor: pointer;
     margin: 50px auto 100px;
     display: flex;
     font-size: 30px;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
 }
 
 button:hover {
-    background-color: blueviolet;
+    background-color: rebeccapurple;
+    transform: scale(1.1);
 }

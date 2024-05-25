@@ -37,7 +37,7 @@ header.sticky{
 }
 
 .logo span {
-    color: #fb911f;
+    color: darkorange;
 }
 
 .navbar_header {
@@ -66,27 +66,29 @@ a:hover {
     padding: 20px;
     border-radius: 40px;
     justify-content: left;
+    transition: all 0.25s;
+    -webkit-transition: all 0.25s;
 }
 
 .navbar_header a:hover {
-    border-color: #fb911f;
+    border-color: darkorange;
 }
 
 .btn-reserve {
     padding: 10px 20px;
-    background: #fb911f;
+    background: darkorange;
     margin-top: -10px;
     text-transform: uppercase;
     transition: ease-out;
 }
 
 .btn-reserve:hover {
-    background: #d87710;
+    background: darkorange;
 }
 
 header .navbar_header li a:hover {
-    color: #fb911f;
-    border-bottom: 2px solid #fb911f;
+    color: darkorange;
+    border-bottom: 2px solid darkorange;
 }
 
 footer {
@@ -98,7 +100,7 @@ footer {
     justify-content: center;
     align-items: center;
     padding: 20px 0;
-    background-color: #f0f0f0;
+    background-color: lightgrey;
     z-index: 1;
 }
 
