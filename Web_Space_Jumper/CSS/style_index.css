@@ -53,10 +53,10 @@ h1, h2{
 
 .launch_image{
     position: relative;
-    bottom: 440px;
-    transform: translateX(125%);
-    max-width: 40%;
-    max-height: 80%;
+    bottom : 550px;
+    transform: translateX(110%);
+    max-width: 45%;
+    max-height: 85%;
     border-radius: 2%;
     border-style: outset;
     border-color: mediumpurple;
