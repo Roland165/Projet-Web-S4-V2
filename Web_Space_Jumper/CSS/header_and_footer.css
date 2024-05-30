@@ -43,7 +43,7 @@ header.sticky{
 .navbar_header {
     display: flex;
     position: relative;
-    left: 60%
+    left: 50%
 }
 
 .navbar_header li {

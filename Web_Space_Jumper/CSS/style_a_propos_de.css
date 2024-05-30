@@ -10,6 +10,7 @@ table {
     position: relative;
     justify-content: center;
     left: 10%;
+    margin-bottom: 10%;
 }
 
 th, td {
