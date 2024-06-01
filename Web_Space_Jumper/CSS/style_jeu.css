@@ -6,6 +6,7 @@ body {
     align-items: center;
     margin: 0;
     padding: 0;
+    justify-content: center;
 }
 
 #tutorialImage{
@@ -47,5 +48,18 @@ h1{
     text-align: center;
     padding-top: 50px;
     margin-bottom: 20px;
-    margin-top: 50px;
+    margin-top: 100px;
+}
+#mute-toggle-button{
+    margin: 10px auto;
+    background-color: mediumpurple;
+    height: 30%;
+    width: 30%;
+    color: floralwhite;
+    border-radius: 10px;
+    font-family: OCR A Std, monospace;
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    border: grey solid 3px;
 }

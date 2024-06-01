@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <title>Space Jumper Game</title>
@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../CSS/style_jeu.css">
     <link rel="stylesheet" href="../CSS/header_and_footer.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../JS/video.js"></script>
 </head>
 <body>
 <header>
@@ -25,10 +26,13 @@
 <script src="../JS/header.js"></script>
 <div class="video-container">
     <h1>Gameplay du jeu :</h1><br>
-    <video loop autoplay muted>
+    <video loop autoplay id="gameplay-video">
         <source src="../Video/2024-05-29_10-18-50_1.mp4" type="video/mp4">
     </video>
+    <br>
+    <button id="mute-toggle-button">Activer le son</button>
 </div>
+
 <p class="download-link">Télécharger le jeu <a href="../Space%20Jumper.zip"> Space Jumper</a></p>
 
 <footer>
